@@ -1,0 +1,11 @@
+method,problem,timeout,seed
+minizinc,8,110,
+minizinc,8,220,
+minizinc,8,330,
+minizinc,8,440,
+minizinc,8,550,
+local,8,110,783528268
+local,8,220,-993845628
+local,8,330,813819092
+local,8,440,545273152
+local,8,550,810389522

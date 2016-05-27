@@ -1,0 +1,11 @@
+nTasks = _NUM_TASKS;
+nVariants = _NUM_VARIANTS;
+nProcessors = _NUM_PROCESSORS;
+tasksToVariants = _TASK_VARIANT_MAPPING;
+utilisations = _UTILISATIONS;
+qos = _QOS;
+capacities = _CAPACITIES;
+bandwidths = _BANDWIDTHS;
+links = _LINKS;
+permittedProcessors = _PERMITTED_PROCESSORS;
+sameProcessor = _SAME_PROCESSOR;

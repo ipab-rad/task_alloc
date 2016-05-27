@@ -60,3 +60,11 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+experiments/*_results.csv
+MiniZincIDE.app/
+.DS_Store
+.idea
+src/sim/output/
+src/sim/minizinc_tmp/
+src/sim/detailed_problems

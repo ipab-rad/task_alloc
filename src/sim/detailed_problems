@@ -1,0 +1,511 @@
+*** PROBLEM 1 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P2']
+Task T2 Variants: ['T2-Q100-U200-R:P2', 'T2-Q90-U160-R:P2', 'T2-Q70-U120-R:P2', 'T2-Q40-U80-R:P2']
+Task T3 Variants: ['T3-Q1-U1-R:']
+Task T4 Variants: ['T4-Q100-U59-R:', 'T4-Q70-U39-R:', 'T4-Q20-U17-R:']
+Task T5 Coresidency: T7 Variants: ['T5-Q1-U1-R:']
+Task T6 Variants: ['T6-Q100-U66-R:', 'T6-Q50-U41-R:', 'T6-Q20-U19-R:']
+Task T7 Coresidency: T5 Variants: ['T7-Q100-U50-R:', 'T7-Q65-U39-R:', 'T7-Q10-U25-R:']
+Task T8 Variants: ['T8-Q1-U16-R:P1']
+Messages
+Message M1 T1 -> T3 [1]
+Message M10 T6 -> T3 [1]
+Message M2 T2 -> T3 [3]
+Message M3 T3 -> T4 [1]
+Message M4 T3 -> T5 [1]
+Message M5 T3 -> T8 [1]
+Message M6 T5 -> T7 [1]
+Message M7 T7 -> T3 [1]
+Message M8 T8 -> T7 [1]
+Message M9 T8 -> T6 [1]
+Processors
+P1 (100)
+P2 (400)
+Links
+Link L1 ['P1', 'P2'] (54000)
+
+*** PROBLEM 2 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P2']
+Task T2 Variants: ['T2-Q100-U200-R:P2', 'T2-Q90-U160-R:P2', 'T2-Q70-U120-R:P2', 'T2-Q40-U80-R:P2']
+Task T3 Variants: ['T3-Q100-U200-R:P2', 'T3-Q90-U160-R:P2', 'T3-Q70-U120-R:P2', 'T3-Q40-U80-R:P2']
+Task T4 Variants: ['T4-Q1-U1-R:']
+Task T5 Variants: ['T5-Q100-U59-R:', 'T5-Q70-U39-R:', 'T5-Q20-U17-R:']
+Task T6 Coresidency: T8 Variants: ['T6-Q1-U1-R:']
+Task T7 Variants: ['T7-Q100-U66-R:', 'T7-Q50-U41-R:', 'T7-Q20-U19-R:']
+Task T8 Coresidency: T6 Variants: ['T8-Q100-U50-R:', 'T8-Q65-U39-R:', 'T8-Q10-U25-R:']
+Task T9 Variants: ['T9-Q1-U16-R:P1']
+Messages
+Message M1 T1 -> T4 [1]
+Message M10 T9 -> T7 [1]
+Message M11 T7 -> T4 [1]
+Message M2 T2 -> T4 [3]
+Message M3 T3 -> T4 [3]
+Message M4 T4 -> T5 [1]
+Message M5 T4 -> T6 [1]
+Message M6 T4 -> T9 [1]
+Message M7 T6 -> T8 [1]
+Message M8 T8 -> T4 [1]
+Message M9 T9 -> T8 [1]
+Processors
+P1 (100)
+P2 (400)
+Links
+Link L1 ['P1', 'P2'] (54000)
+
+*** PROBLEM 3 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P2']
+Task T10 Variants: ['T10-Q1-U16-R:P1']
+Task T2 Variants: ['T2-Q100-U200-R:P2', 'T2-Q90-U160-R:P2', 'T2-Q70-U120-R:P2', 'T2-Q40-U80-R:P2']
+Task T3 Variants: ['T3-Q100-U200-R:P2', 'T3-Q90-U160-R:P2', 'T3-Q70-U120-R:P2', 'T3-Q40-U80-R:P2']
+Task T4 Variants: ['T4-Q100-U200-R:P2', 'T4-Q90-U160-R:P2', 'T4-Q70-U120-R:P2', 'T4-Q40-U80-R:P2']
+Task T5 Variants: ['T5-Q1-U1-R:']
+Task T6 Variants: ['T6-Q100-U59-R:', 'T6-Q70-U39-R:', 'T6-Q20-U17-R:']
+Task T7 Coresidency: T9 Variants: ['T7-Q1-U1-R:']
+Task T8 Variants: ['T8-Q100-U66-R:', 'T8-Q50-U41-R:', 'T8-Q20-U19-R:']
+Task T9 Coresidency: T7 Variants: ['T9-Q100-U50-R:', 'T9-Q65-U39-R:', 'T9-Q10-U25-R:']
+Messages
+Message M1 T1 -> T5 [1]
+Message M10 T10 -> T9 [1]
+Message M11 T10 -> T8 [1]
+Message M12 T8 -> T5 [1]
+Message M2 T2 -> T5 [3]
+Message M3 T3 -> T5 [3]
+Message M4 T4 -> T5 [3]
+Message M5 T5 -> T6 [1]
+Message M6 T5 -> T7 [1]
+Message M7 T5 -> T10 [1]
+Message M8 T7 -> T9 [1]
+Message M9 T9 -> T5 [1]
+Processors
+P1 (100)
+P2 (400)
+Links
+Link L1 ['P1', 'P2'] (54000)
+
+*** PROBLEM 4 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P3']
+Task T10 Variants: ['T10-Q100-U59-R:', 'T10-Q70-U39-R:', 'T10-Q20-U17-R:']
+Task T11 Coresidency: T13 Variants: ['T11-Q1-U1-R:']
+Task T12 Variants: ['T12-Q100-U66-R:', 'T12-Q50-U41-R:', 'T12-Q20-U19-R:']
+Task T13 Coresidency: T11 Variants: ['T13-Q100-U50-R:', 'T13-Q65-U39-R:', 'T13-Q10-U25-R:']
+Task T14 Variants: ['T14-Q1-U16-R:P2']
+Task T2 Variants: ['T2-Q100-U200-R:P3', 'T2-Q90-U160-R:P3', 'T2-Q70-U120-R:P3', 'T2-Q40-U80-R:P3']
+Task T3 Variants: ['T3-Q1-U1-R:']
+Task T4 Variants: ['T4-Q100-U59-R:', 'T4-Q70-U39-R:', 'T4-Q20-U17-R:']
+Task T5 Coresidency: T7 Variants: ['T5-Q1-U1-R:']
+Task T6 Variants: ['T6-Q100-U66-R:', 'T6-Q50-U41-R:', 'T6-Q20-U19-R:']
+Task T7 Coresidency: T5 Variants: ['T7-Q100-U50-R:', 'T7-Q65-U39-R:', 'T7-Q10-U25-R:']
+Task T8 Variants: ['T8-Q1-U16-R:P1']
+Task T9 Variants: ['T9-Q1-U1-R:']
+Messages
+Message M1 T1 -> T3 [1]
+Message M10 T8 -> T7 [1]
+Message M11 T8 -> T6 [1]
+Message M12 T6 -> T3 [1]
+Message M13 T9 -> T10 [1]
+Message M14 T9 -> T11 [1]
+Message M15 T9 -> T14 [1]
+Message M16 T11 -> T13 [1]
+Message M17 T13 -> T9 [1]
+Message M18 T14 -> T13 [1]
+Message M19 T14 -> T12 [1]
+Message M2 T1 -> T9 [1]
+Message M20 T12 -> T9 [1]
+Message M3 T2 -> T3 [3]
+Message M4 T3 -> T4 [1]
+Message M5 T3 -> T5 [1]
+Message M6 T3 -> T8 [1]
+Message M7 T3 -> T9 [1]
+Message M8 T5 -> T7 [1]
+Message M9 T7 -> T3 [1]
+Processors
+P1 (100)
+P2 (100)
+P3 (400)
+Links
+Link L1 ['P1', 'P2'] (18000)
+Link L2 ['P1', 'P3'] (18000)
+Link L3 ['P2', 'P3'] (18000)
+
+*** PROBLEM 5 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P3']
+Task T10 Variants: ['T10-Q1-U1-R:']
+Task T11 Variants: ['T11-Q100-U59-R:', 'T11-Q70-U39-R:', 'T11-Q20-U17-R:']
+Task T12 Coresidency: T14 Variants: ['T12-Q1-U1-R:']
+Task T13 Variants: ['T13-Q100-U66-R:', 'T13-Q50-U41-R:', 'T13-Q20-U19-R:']
+Task T14 Coresidency: T12 Variants: ['T14-Q100-U50-R:', 'T14-Q65-U39-R:', 'T14-Q10-U25-R:']
+Task T15 Variants: ['T15-Q1-U16-R:P2']
+Task T2 Variants: ['T2-Q100-U200-R:P3', 'T2-Q90-U160-R:P3', 'T2-Q70-U120-R:P3', 'T2-Q40-U80-R:P3']
+Task T3 Variants: ['T3-Q100-U200-R:P3', 'T3-Q90-U160-R:P3', 'T3-Q70-U120-R:P3', 'T3-Q40-U80-R:P3']
+Task T4 Variants: ['T4-Q1-U1-R:']
+Task T5 Variants: ['T5-Q100-U59-R:', 'T5-Q70-U39-R:', 'T5-Q20-U17-R:']
+Task T6 Coresidency: T8 Variants: ['T6-Q1-U1-R:']
+Task T7 Variants: ['T7-Q100-U66-R:', 'T7-Q50-U41-R:', 'T7-Q20-U19-R:']
+Task T8 Coresidency: T6 Variants: ['T8-Q100-U50-R:', 'T8-Q65-U39-R:', 'T8-Q10-U25-R:']
+Task T9 Variants: ['T9-Q1-U16-R:P1']
+Messages
+Message M1 T1 -> T4 [1]
+Message M10 T8 -> T4 [1]
+Message M11 T9 -> T8 [1]
+Message M12 T9 -> T7 [1]
+Message M13 T7 -> T4 [1]
+Message M14 T10 -> T11 [1]
+Message M15 T10 -> T12 [1]
+Message M16 T10 -> T15 [1]
+Message M17 T12 -> T14 [1]
+Message M18 T14 -> T10 [1]
+Message M19 T15 -> T14 [1]
+Message M2 T1 -> T10 [1]
+Message M20 T15 -> T13 [1]
+Message M21 T13 -> T10 [1]
+Message M3 T2 -> T4 [3]
+Message M4 T3 -> T4 [3]
+Message M5 T4 -> T5 [1]
+Message M6 T4 -> T6 [1]
+Message M7 T4 -> T9 [1]
+Message M8 T4 -> T10 [1]
+Message M9 T6 -> T8 [1]
+Processors
+P1 (100)
+P2 (100)
+P3 (400)
+Links
+Link L1 ['P1', 'P2'] (18000)
+Link L2 ['P1', 'P3'] (18000)
+Link L3 ['P2', 'P3'] (18000)
+
+*** PROBLEM 6 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P3']
+Task T10 Variants: ['T10-Q1-U16-R:P1']
+Task T11 Variants: ['T11-Q1-U1-R:']
+Task T12 Variants: ['T12-Q100-U59-R:', 'T12-Q70-U39-R:', 'T12-Q20-U17-R:']
+Task T13 Coresidency: T15 Variants: ['T13-Q1-U1-R:']
+Task T14 Variants: ['T14-Q100-U66-R:', 'T14-Q50-U41-R:', 'T14-Q20-U19-R:']
+Task T15 Coresidency: T13 Variants: ['T15-Q100-U50-R:', 'T15-Q65-U39-R:', 'T15-Q10-U25-R:']
+Task T16 Variants: ['T16-Q1-U16-R:P2']
+Task T2 Variants: ['T2-Q100-U200-R:P3', 'T2-Q90-U160-R:P3', 'T2-Q70-U120-R:P3', 'T2-Q40-U80-R:P3']
+Task T3 Variants: ['T3-Q100-U200-R:P3', 'T3-Q90-U160-R:P3', 'T3-Q70-U120-R:P3', 'T3-Q40-U80-R:P3']
+Task T4 Variants: ['T4-Q100-U200-R:P3', 'T4-Q90-U160-R:P3', 'T4-Q70-U120-R:P3', 'T4-Q40-U80-R:P3']
+Task T5 Variants: ['T5-Q1-U1-R:']
+Task T6 Variants: ['T6-Q100-U59-R:', 'T6-Q70-U39-R:', 'T6-Q20-U17-R:']
+Task T7 Coresidency: T9 Variants: ['T7-Q1-U1-R:']
+Task T8 Variants: ['T8-Q100-U66-R:', 'T8-Q50-U41-R:', 'T8-Q20-U19-R:']
+Task T9 Coresidency: T7 Variants: ['T9-Q100-U50-R:', 'T9-Q65-U39-R:', 'T9-Q10-U25-R:']
+Messages
+Message M1 T1 -> T5 [1]
+Message M10 T7 -> T9 [1]
+Message M11 T9 -> T5 [1]
+Message M12 T10 -> T9 [1]
+Message M13 T10 -> T8 [1]
+Message M14 T8 -> T5 [1]
+Message M15 T11 -> T12 [1]
+Message M16 T11 -> T13 [1]
+Message M17 T11 -> T16 [1]
+Message M18 T13 -> T15 [1]
+Message M19 T15 -> T11 [1]
+Message M2 T1 -> T11 [1]
+Message M20 T16 -> T15 [1]
+Message M21 T16 -> T14 [1]
+Message M22 T14 -> T11 [1]
+Message M3 T2 -> T5 [3]
+Message M4 T3 -> T5 [3]
+Message M5 T4 -> T5 [3]
+Message M6 T5 -> T6 [1]
+Message M7 T5 -> T7 [1]
+Message M8 T5 -> T10 [1]
+Message M9 T5 -> T11 [1]
+Processors
+P1 (100)
+P2 (100)
+P3 (400)
+Links
+Link L1 ['P1', 'P2'] (18000)
+Link L2 ['P1', 'P3'] (18000)
+Link L3 ['P2', 'P3'] (18000)
+
+*** PROBLEM 7 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P4']
+Task T10 Variants: ['T10-Q100-U59-R:', 'T10-Q70-U39-R:', 'T10-Q20-U17-R:']
+Task T11 Coresidency: T13 Variants: ['T11-Q1-U1-R:']
+Task T12 Variants: ['T12-Q100-U66-R:', 'T12-Q50-U41-R:', 'T12-Q20-U19-R:']
+Task T13 Coresidency: T11 Variants: ['T13-Q100-U50-R:', 'T13-Q65-U39-R:', 'T13-Q10-U25-R:']
+Task T14 Variants: ['T14-Q1-U16-R:P2']
+Task T15 Variants: ['T15-Q1-U1-R:']
+Task T16 Variants: ['T16-Q100-U59-R:', 'T16-Q70-U39-R:', 'T16-Q20-U17-R:']
+Task T17 Coresidency: T19 Variants: ['T17-Q1-U1-R:']
+Task T18 Variants: ['T18-Q100-U66-R:', 'T18-Q50-U41-R:', 'T18-Q20-U19-R:']
+Task T19 Coresidency: T17 Variants: ['T19-Q100-U50-R:', 'T19-Q65-U39-R:', 'T19-Q10-U25-R:']
+Task T2 Variants: ['T2-Q100-U200-R:P4', 'T2-Q90-U160-R:P4', 'T2-Q70-U120-R:P4', 'T2-Q40-U80-R:P4']
+Task T20 Variants: ['T20-Q1-U16-R:P3']
+Task T3 Variants: ['T3-Q1-U1-R:']
+Task T4 Variants: ['T4-Q100-U59-R:', 'T4-Q70-U39-R:', 'T4-Q20-U17-R:']
+Task T5 Coresidency: T7 Variants: ['T5-Q1-U1-R:']
+Task T6 Variants: ['T6-Q100-U66-R:', 'T6-Q50-U41-R:', 'T6-Q20-U19-R:']
+Task T7 Coresidency: T5 Variants: ['T7-Q100-U50-R:', 'T7-Q65-U39-R:', 'T7-Q10-U25-R:']
+Task T8 Variants: ['T8-Q1-U16-R:P1']
+Task T9 Variants: ['T9-Q1-U1-R:']
+Messages
+Message M1 T1 -> T3 [1]
+Message M10 T5 -> T7 [1]
+Message M11 T7 -> T3 [1]
+Message M12 T8 -> T7 [1]
+Message M13 T8 -> T6 [1]
+Message M14 T6 -> T3 [1]
+Message M15 T9 -> T10 [1]
+Message M16 T9 -> T11 [1]
+Message M17 T9 -> T14 [1]
+Message M18 T9 -> T15 [1]
+Message M19 T11 -> T13 [1]
+Message M2 T1 -> T9 [1]
+Message M20 T13 -> T9 [1]
+Message M21 T14 -> T13 [1]
+Message M22 T14 -> T12 [1]
+Message M23 T12 -> T9 [1]
+Message M24 T15 -> T16 [1]
+Message M25 T15 -> T17 [1]
+Message M26 T15 -> T20 [1]
+Message M27 T17 -> T19 [1]
+Message M28 T19 -> T15 [1]
+Message M29 T20 -> T19 [1]
+Message M3 T1 -> T15 [1]
+Message M30 T20 -> T18 [1]
+Message M31 T18 -> T15 [1]
+Message M4 T2 -> T3 [3]
+Message M5 T3 -> T4 [1]
+Message M6 T3 -> T5 [1]
+Message M7 T3 -> T8 [1]
+Message M8 T3 -> T9 [1]
+Message M9 T3 -> T15 [1]
+Processors
+P1 (100)
+P2 (100)
+P3 (100)
+P4 (400)
+Links
+Link L1 ['P1', 'P2'] (9000)
+Link L2 ['P1', 'P3'] (9000)
+Link L3 ['P1', 'P4'] (9000)
+Link L4 ['P2', 'P3'] (9000)
+Link L5 ['P2', 'P4'] (9000)
+Link L6 ['P3', 'P4'] (9000)
+
+*** PROBLEM 8 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P4']
+Task T10 Variants: ['T10-Q1-U1-R:']
+Task T11 Variants: ['T11-Q100-U59-R:', 'T11-Q70-U39-R:', 'T11-Q20-U17-R:']
+Task T12 Coresidency: T14 Variants: ['T12-Q1-U1-R:']
+Task T13 Variants: ['T13-Q100-U66-R:', 'T13-Q50-U41-R:', 'T13-Q20-U19-R:']
+Task T14 Coresidency: T12 Variants: ['T14-Q100-U50-R:', 'T14-Q65-U39-R:', 'T14-Q10-U25-R:']
+Task T15 Variants: ['T15-Q1-U16-R:P2']
+Task T16 Variants: ['T16-Q1-U1-R:']
+Task T17 Variants: ['T17-Q100-U59-R:', 'T17-Q70-U39-R:', 'T17-Q20-U17-R:']
+Task T18 Coresidency: T20 Variants: ['T18-Q1-U1-R:']
+Task T19 Variants: ['T19-Q100-U66-R:', 'T19-Q50-U41-R:', 'T19-Q20-U19-R:']
+Task T2 Variants: ['T2-Q100-U200-R:P4', 'T2-Q90-U160-R:P4', 'T2-Q70-U120-R:P4', 'T2-Q40-U80-R:P4']
+Task T20 Coresidency: T18 Variants: ['T20-Q100-U50-R:', 'T20-Q65-U39-R:', 'T20-Q10-U25-R:']
+Task T21 Variants: ['T21-Q1-U16-R:P3']
+Task T3 Variants: ['T3-Q100-U200-R:P4', 'T3-Q90-U160-R:P4', 'T3-Q70-U120-R:P4', 'T3-Q40-U80-R:P4']
+Task T4 Variants: ['T4-Q1-U1-R:']
+Task T5 Variants: ['T5-Q100-U59-R:', 'T5-Q70-U39-R:', 'T5-Q20-U17-R:']
+Task T6 Coresidency: T8 Variants: ['T6-Q1-U1-R:']
+Task T7 Variants: ['T7-Q100-U66-R:', 'T7-Q50-U41-R:', 'T7-Q20-U19-R:']
+Task T8 Coresidency: T6 Variants: ['T8-Q100-U50-R:', 'T8-Q65-U39-R:', 'T8-Q10-U25-R:']
+Task T9 Variants: ['T9-Q1-U16-R:P1']
+Messages
+Message M1 T1 -> T4 [1]
+Message M10 T4 -> T16 [1]
+Message M11 T6 -> T8 [1]
+Message M12 T8 -> T4 [1]
+Message M13 T9 -> T8 [1]
+Message M14 T9 -> T7 [1]
+Message M15 T7 -> T4 [1]
+Message M16 T10 -> T11 [1]
+Message M17 T10 -> T12 [1]
+Message M18 T10 -> T15 [1]
+Message M19 T10 -> T16 [1]
+Message M2 T1 -> T10 [1]
+Message M20 T12 -> T14 [1]
+Message M21 T14 -> T10 [1]
+Message M22 T15 -> T14 [1]
+Message M23 T15 -> T13 [1]
+Message M24 T13 -> T10 [1]
+Message M25 T16 -> T17 [1]
+Message M26 T16 -> T18 [1]
+Message M27 T16 -> T21 [1]
+Message M28 T18 -> T20 [1]
+Message M29 T20 -> T16 [1]
+Message M3 T1 -> T16 [1]
+Message M30 T21 -> T20 [1]
+Message M31 T21 -> T19 [1]
+Message M32 T19 -> T16 [1]
+Message M4 T2 -> T4 [3]
+Message M5 T3 -> T4 [3]
+Message M6 T4 -> T5 [1]
+Message M7 T4 -> T6 [1]
+Message M8 T4 -> T9 [1]
+Message M9 T4 -> T10 [1]
+Processors
+P1 (100)
+P2 (100)
+P3 (100)
+P4 (400)
+Links
+Link L1 ['P1', 'P2'] (9000)
+Link L2 ['P1', 'P3'] (9000)
+Link L3 ['P1', 'P4'] (9000)
+Link L4 ['P2', 'P3'] (9000)
+Link L5 ['P2', 'P4'] (9000)
+Link L6 ['P3', 'P4'] (9000)
+
+*** PROBLEM 9 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P4']
+Task T10 Variants: ['T10-Q1-U16-R:P1']
+Task T11 Variants: ['T11-Q1-U1-R:']
+Task T12 Variants: ['T12-Q100-U59-R:', 'T12-Q70-U39-R:', 'T12-Q20-U17-R:']
+Task T13 Coresidency: T15 Variants: ['T13-Q1-U1-R:']
+Task T14 Variants: ['T14-Q100-U66-R:', 'T14-Q50-U41-R:', 'T14-Q20-U19-R:']
+Task T15 Coresidency: T13 Variants: ['T15-Q100-U50-R:', 'T15-Q65-U39-R:', 'T15-Q10-U25-R:']
+Task T16 Variants: ['T16-Q1-U16-R:P2']
+Task T17 Variants: ['T17-Q1-U1-R:']
+Task T18 Variants: ['T18-Q100-U59-R:', 'T18-Q70-U39-R:', 'T18-Q20-U17-R:']
+Task T19 Coresidency: T21 Variants: ['T19-Q1-U1-R:']
+Task T2 Variants: ['T2-Q100-U200-R:P4', 'T2-Q90-U160-R:P4', 'T2-Q70-U120-R:P4', 'T2-Q40-U80-R:P4']
+Task T20 Variants: ['T20-Q100-U66-R:', 'T20-Q50-U41-R:', 'T20-Q20-U19-R:']
+Task T21 Coresidency: T19 Variants: ['T21-Q100-U50-R:', 'T21-Q65-U39-R:', 'T21-Q10-U25-R:']
+Task T22 Variants: ['T22-Q1-U16-R:P3']
+Task T3 Variants: ['T3-Q100-U200-R:P4', 'T3-Q90-U160-R:P4', 'T3-Q70-U120-R:P4', 'T3-Q40-U80-R:P4']
+Task T4 Variants: ['T4-Q100-U200-R:P4', 'T4-Q90-U160-R:P4', 'T4-Q70-U120-R:P4', 'T4-Q40-U80-R:P4']
+Task T5 Variants: ['T5-Q1-U1-R:']
+Task T6 Variants: ['T6-Q100-U59-R:', 'T6-Q70-U39-R:', 'T6-Q20-U17-R:']
+Task T7 Coresidency: T9 Variants: ['T7-Q1-U1-R:']
+Task T8 Variants: ['T8-Q100-U66-R:', 'T8-Q50-U41-R:', 'T8-Q20-U19-R:']
+Task T9 Coresidency: T7 Variants: ['T9-Q100-U50-R:', 'T9-Q65-U39-R:', 'T9-Q10-U25-R:']
+Messages
+Message M1 T1 -> T5 [1]
+Message M10 T5 -> T11 [1]
+Message M11 T5 -> T17 [1]
+Message M12 T7 -> T9 [1]
+Message M13 T9 -> T5 [1]
+Message M14 T10 -> T9 [1]
+Message M15 T10 -> T8 [1]
+Message M16 T8 -> T5 [1]
+Message M17 T11 -> T12 [1]
+Message M18 T11 -> T13 [1]
+Message M19 T11 -> T16 [1]
+Message M2 T1 -> T11 [1]
+Message M20 T11 -> T17 [1]
+Message M21 T13 -> T15 [1]
+Message M22 T15 -> T11 [1]
+Message M23 T16 -> T15 [1]
+Message M24 T16 -> T14 [1]
+Message M25 T14 -> T11 [1]
+Message M26 T17 -> T18 [1]
+Message M27 T17 -> T19 [1]
+Message M28 T17 -> T22 [1]
+Message M29 T19 -> T21 [1]
+Message M3 T1 -> T17 [1]
+Message M30 T21 -> T17 [1]
+Message M31 T22 -> T21 [1]
+Message M32 T22 -> T20 [1]
+Message M33 T20 -> T17 [1]
+Message M4 T2 -> T5 [3]
+Message M5 T3 -> T5 [3]
+Message M6 T4 -> T5 [3]
+Message M7 T5 -> T6 [1]
+Message M8 T5 -> T7 [1]
+Message M9 T5 -> T10 [1]
+Processors
+P1 (100)
+P2 (100)
+P3 (100)
+P4 (400)
+Links
+Link L1 ['P1', 'P2'] (9000)
+Link L2 ['P1', 'P3'] (9000)
+Link L3 ['P1', 'P4'] (9000)
+Link L4 ['P2', 'P3'] (9000)
+Link L5 ['P2', 'P4'] (9000)
+Link L6 ['P3', 'P4'] (9000)
+
+*** PROBLEM 10 ***
+Tasks
+Task T1 Variants: ['T1-Q1-U1-R:P4']
+Task T10 Coresidency: T8 Variants: ['T10-Q100-U50-R:', 'T10-Q65-U39-R:', 'T10-Q10-U25-R:']
+Task T11 Variants: ['T11-Q1-U16-R:P1']
+Task T12 Variants: ['T12-Q1-U1-R:']
+Task T13 Variants: ['T13-Q100-U59-R:', 'T13-Q70-U39-R:', 'T13-Q20-U17-R:']
+Task T14 Coresidency: T16 Variants: ['T14-Q1-U1-R:']
+Task T15 Variants: ['T15-Q100-U66-R:', 'T15-Q50-U41-R:', 'T15-Q20-U19-R:']
+Task T16 Coresidency: T14 Variants: ['T16-Q100-U50-R:', 'T16-Q65-U39-R:', 'T16-Q10-U25-R:']
+Task T17 Variants: ['T17-Q1-U16-R:P2']
+Task T18 Variants: ['T18-Q1-U1-R:']
+Task T19 Variants: ['T19-Q100-U59-R:', 'T19-Q70-U39-R:', 'T19-Q20-U17-R:']
+Task T2 Variants: ['T2-Q100-U200-R:P4', 'T2-Q90-U160-R:P4', 'T2-Q70-U120-R:P4', 'T2-Q40-U80-R:P4']
+Task T20 Coresidency: T22 Variants: ['T20-Q1-U1-R:']
+Task T21 Variants: ['T21-Q100-U66-R:', 'T21-Q50-U41-R:', 'T21-Q20-U19-R:']
+Task T22 Coresidency: T20 Variants: ['T22-Q100-U50-R:', 'T22-Q65-U39-R:', 'T22-Q10-U25-R:']
+Task T23 Variants: ['T23-Q1-U16-R:P3']
+Task T3 Variants: ['T3-Q100-U200-R:P4', 'T3-Q90-U160-R:P4', 'T3-Q70-U120-R:P4', 'T3-Q40-U80-R:P4']
+Task T4 Variants: ['T4-Q100-U200-R:P4', 'T4-Q90-U160-R:P4', 'T4-Q70-U120-R:P4', 'T4-Q40-U80-R:P4']
+Task T5 Variants: ['T5-Q100-U200-R:P4', 'T5-Q90-U160-R:P4', 'T5-Q70-U120-R:P4', 'T5-Q40-U80-R:P4']
+Task T6 Variants: ['T6-Q1-U1-R:']
+Task T7 Variants: ['T7-Q100-U59-R:', 'T7-Q70-U39-R:', 'T7-Q20-U17-R:']
+Task T8 Coresidency: T10 Variants: ['T8-Q1-U1-R:']
+Task T9 Variants: ['T9-Q100-U66-R:', 'T9-Q50-U41-R:', 'T9-Q20-U19-R:']
+Messages
+Message M1 T1 -> T6 [1]
+Message M10 T6 -> T11 [1]
+Message M11 T6 -> T12 [1]
+Message M12 T6 -> T18 [1]
+Message M13 T8 -> T10 [1]
+Message M14 T10 -> T6 [1]
+Message M15 T11 -> T10 [1]
+Message M16 T11 -> T9 [1]
+Message M17 T9 -> T6 [1]
+Message M18 T12 -> T13 [1]
+Message M19 T12 -> T14 [1]
+Message M2 T1 -> T12 [1]
+Message M20 T12 -> T17 [1]
+Message M21 T12 -> T18 [1]
+Message M22 T14 -> T16 [1]
+Message M23 T16 -> T12 [1]
+Message M24 T17 -> T16 [1]
+Message M25 T17 -> T15 [1]
+Message M26 T15 -> T12 [1]
+Message M27 T18 -> T19 [1]
+Message M28 T18 -> T20 [1]
+Message M29 T18 -> T23 [1]
+Message M3 T1 -> T18 [1]
+Message M30 T20 -> T22 [1]
+Message M31 T22 -> T18 [1]
+Message M32 T23 -> T22 [1]
+Message M33 T23 -> T21 [1]
+Message M34 T21 -> T18 [1]
+Message M4 T2 -> T6 [3]
+Message M5 T3 -> T6 [3]
+Message M6 T4 -> T6 [3]
+Message M7 T5 -> T6 [3]
+Message M8 T6 -> T7 [1]
+Message M9 T6 -> T8 [1]
+Processors
+P1 (100)
+P2 (100)
+P3 (100)
+P4 (400)
+Links
+Link L1 ['P1', 'P2'] (9000)
+Link L2 ['P1', 'P3'] (9000)
+Link L3 ['P1', 'P4'] (9000)
+Link L4 ['P2', 'P3'] (9000)
+Link L5 ['P2', 'P4'] (9000)
+Link L6 ['P3', 'P4'] (9000)
+
