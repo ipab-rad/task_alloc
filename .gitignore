@@ -68,3 +68,4 @@ MiniZincIDE.app/
 src/sim/output/
 src/sim/minizinc_tmp/
 src/sim/detailed_problems
+plot/*.pdf
