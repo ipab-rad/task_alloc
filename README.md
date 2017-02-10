@@ -23,6 +23,7 @@ David R. White: david.r.white@ucl.ac.uk
 * Pyton packages: shortuuid
 * The R package for plotting results from Section V-E
 * The MiniZinc constraint modeller
+* The Qt5 library (libQt5)
 
 ### Python Packages
 
