@@ -4,9 +4,9 @@ This repository contains the input files, source code, plotting scripts and inst
 
 "Task Variant Allocation in Distributed Robotics"
 
-by Jose Cano, David R. White, Alejandro Bordallo, Ciaran McCreesh, Patrick Prosser†, Jeremy Singer† and Vijay Nagarajan.
+by José Cano, David R. White, Alejandro Bordallo, Ciaran McCreesh, Patrick Prosser, Jeremy Singer and Vijay Nagarajan.
 
-The paper is (at the time of writing) to appear in Robotics Science and Systems 2016, an academic conference. The website of RSS 2016 is at:
+The paper appeared in Robotics Science and Systems 2016, an academic conference. The website of RSS 2016 is at:
 
 http://rss2016.engin.umich.edu/
 
@@ -14,7 +14,7 @@ http://rss2016.engin.umich.edu/
 
 For futher details of this work, please consult the paper or contact one of the following main authors:
 
-Jose Cano: jcanore@inf.ed.ac.uk
+José Cano: jcanore@inf.ed.ac.uk
 David R. White: david.r.white@ucl.ac.uk
 
 ## Requirements
@@ -80,7 +80,7 @@ The experimentation in the paper consisted of three parts:
 * Section V-E, treating MiniZinc and local search as "anytime" solvers.
 * Other work running experiments on the case study robotics platform.
 
-The final set of experiments are too complex and involved to provide a simple method of reproducing our results. If you're interested in replicating this work, then please contact Jose Cano as described above.
+The final set of experiments are too complex and involved to provide a simple method of reproducing our results. If you're interested in replicating this work, then please contact José Cano as described above.
 
 The other experiments are quite straightforward to rerun. However, keep in mind that your results will not perfectly reflect our work, even if running on the same hardware and using the seeds we provide where applicable.
 
@@ -129,5 +129,5 @@ The output, problem7.pdf, will be left in the same directory.
 
 For futher details of this work, please consult the paper or contact one of the following main authors:
 
-Jose Cano: jcanore@inf.ed.ac.uk
+José Cano: jcanore@inf.ed.ac.uk
 David R. White: david.r.white@ucl.ac.uk
