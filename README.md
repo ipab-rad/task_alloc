@@ -8,7 +8,7 @@ by Jose Cano, David R. White, Alejandro Bordallo, Ciaran McCreesh, Patrick Pross
 
 The paper is (at the time of writing) to appear in Robotics Science and Systems 2016, an academic conference. The website of RSS 2016 is at:
 
-http://www.roboticsconference.org
+http://rss2016.engin.umich.edu/
 
 ## Further Information
 
